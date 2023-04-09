@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My GitHub Webpage</title>
+    <title>Rodolfo Melo</title>
 
     <style>
       /* CSS styles go here */
@@ -28,6 +28,41 @@
         max-width: 800px;
         margin: 0 auto;
         padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+      }
+
+      .left {
+        width: 100%;
+        max-width: 250px;
+        margin-right: 20px;
+      }
+
+      .left img {
+        width: 100%;
+        border-radius: 50%;
+      }
+
+      .right {
+        width: 100%;
+        max-width: 530px;
+      }
+
+      .summary {
+        margin-bottom: 30px;
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+
+      .project {
+        margin-bottom: 20px;
+      }
+
+      .project h3 {
+        margin-top: 0;
       }
 
       p {
@@ -42,12 +77,39 @@
     </header>
 
     <main>
-      <p>Welcome to my GitHub webpage! This is where I'll be sharing my work and projects.</p>
-    </main>
+      <div class="left">
+        <img src="images/rodolfo_foto.jpg" alt="Rodolfo Melo">
+        <div class="summary">
+          <h2>Summary</h2>
+          <p>Fresh Data Science graduate with significant data analytics experience. An experienced programmer with a passion for learning new skills and seeking research experience to pursue a PhD in the future.</p>
+        </div>
+      </div>
 
-    <script>
-      // JavaScript code goes here
-      console.log("Hello, world!");
-    </script>
+      <div class="right">
+        <h2>Experience</h2>
+
+        <div class="job">
+          <h3>Data Scientist</h3>
+          <p><strong>Treasury Secretary of the State of Piauí - Brazil</strong>, Teresina, Brazil<br>
+          January 2023 - Present</p>
+          <ul>
+            <li>Consultor in Data Science projects in the Treasury Secretary.</li>
+            <li>Support in analytics solution to determine market reference price using data from the Electronic Invoice.</li>
+            <li>Working with the Data Science Laboratory of the Federal University of Alagoas to develop a methodology for the reference price of medicines to increase the efficiency of purchases made by the State of Piauí.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <h3>Planning Coordinator</h3>
+          <p><strong>Treasury Secretary of the State of Piauí - Brazil</strong>, Teresina, Brazil<br>
+          April 2018 - December 2022</p>
+          <ul>
+            <li>Coordinated team of tax auditors, data engineers, and data analysts.</li>
+            <li>Coordinated real-time fraud detection project to support auditing.</li>
+            <li>Developed new cross-checks and metrics to inhibit tax evasion, responsible for recovering more than €50 million.</li>
+          </ul>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
