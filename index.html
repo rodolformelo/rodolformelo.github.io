@@ -1,185 +1,291 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rodolfo Melo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/static/css/font-awesome.min.css" rel="stylesheet">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/aos.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/bootstrap.min.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main.css') }}">
 
-    <style>
-      /* CSS styles go here */
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f5f5f5;
-      }
-
-      header {
-        background-color: #202020;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-      }
-
-      h1 {
-        margin: 0;
-      }
-
-      main {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
-      }
-
-      .left {
-        width: 100%;
-        max-width: 250px;
-        margin-right: 20px;
-      }
-
-      .left img {
-        width: 100%;
-        border-radius: 50%;
-      }
-
-      .right {
-        width: 100%;
-        max-width: 530px;
-      }
-
-      .summary {
-        margin-bottom: 30px;
-      }
-
-      h2 {
-        margin-top: 0;
-      }
-
-      .project {
-        margin-bottom: 20px;
-      }
-
-      .project h3 {
-        margin-top: 0;
-      }
-
-      p {
-        line-height: 1.5;
-      }
-    </style>
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
   </head>
-
-  <body>
+  <body id="top">
     <header>
-      <h1>Rodolfo Rodrigues Melo</h1>
+      <div class="profile-page sidebar-collapse">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+          <div class="container">
+           
+              <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#educacao">Education</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
     </header>
-
-    <main>
-      <div class="left">
-        <img src="images/rodolfo_foto.jpg" alt="Rodolfo Melo">
-        <div class="summary">
-          <h2>Summary</h2>
-          <p>Fresh Data Science graduate with significant data analytics experience. An experienced programmer with a passion for learning new skills and seeking research experience to pursue a PhD in the future.</p>
-          <p>Contact: rodolfomelo92@gmail.com</p>
+    <div class="page-content">
+      <div>
+<div class="profile-page">
+  <div class="wrapper">
+    <div class="page-header page-header-small" filter-color="green">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('static/images/graphic-design-4.jpg')"></div>
+      <div class="container">
+        <div class="content-center">
+          <div class="cc-profile-image"><a href="#"><img src="static/images/rodolfo_foto.jpg" alt="Image"/></a></div>
+          <div class="h2 title">Rodolfo Rodrigues Melo</div>
+          <p class="category text-white">Data Scientist</p>
         </div>
       </div>
-
-      <div class="right">
-        <h2>Experience</h2>
-
-        <div class="job">
-          <h3>Data Scientist</h3>
-          <p><strong>Treasury Secretary of the State of Piauí - Brazil</strong>, Teresina, Brazil<br>
-          January 2023 - Present</p>
-          <ul>
-            <li>Consultor in Data Science projects in the Treasury Secretary.</li>
-            <li>Support in analytics solution to determine market reference price using data from the Electronic Invoice.</li>
-            <li>Working with the Data Science Laboratory of the Federal University of Alagoas to develop a methodology for the reference price of medicines to increase the efficiency of purchases made by the State of Piauí.</li>
-          </ul>
+      <div class="section">
+        <div class="container">
+          <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" target="_blank" href="https://github.com/rodolformelo" rel="tooltip" title="Github"><i class="fa fa-github"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" target="_blank" href="https://www.linkedin.com/in/rodolfo-rodrigues-melo-35770a41/" rel="tooltip" title="LinkedIn"><i class="fa fa-linkedin"></i></a></div>
         </div>
-
-        <div class="job">
-          <h3>Planning Coordinator</h3>
-          <p><strong>Treasury Secretary of the State of Piauí - Brazil</strong>, Teresina, Brazil<br>
-          April 2018 - December 2022</p>
-          <ul>
-            <li>Coordinated team of tax auditors, data engineers, and data analysts.</li>
-            <li>Coordinated real-time fraud detection project to support auditing.</li>
-            <li>Developed new cross-checks and metrics to inhibit tax evasion, responsible for recovering more than €50 million.</li>
-            <li>Developed validation checks on State Electronic Tax Declaration, awarded as one of Brazil's 2022 best innovations for taxation.</li>
-            <li>Developed and deployed models to predict State Revenue using electronic invoices to help the Government cash flow planning</li>
-            <li>Improved methodology to calculate the State Tax Gap using electronic invoices in sectors with the most significant tax evasion from a macroeconomic point of view.</li>
-            <li>Created Dashboards and Reports for Tax Auditing.</li>
-            <li>Responsible for planning State Tax Audits.</li>
-            <li>Developed and deployed models to detect Shell companies halving the time to detect fraudulent companies.</li>
-          </ul>
-        </div>
-
-        <div class="job">
-          <h3>Tax Auditor</h3>
-          <p><strong>Treasury Secretary of the State of Piauí - Brazil</strong>, Teresina, Brazil<br>
-          February 2016 - Present</p>
-          <ul>
-            <li>Tax Audit in the largest companies in the State.</li>
-            </ul>
-        </div>
-
-        <br>
-        <h2>Projects</h2>
-
-        <div class="projects">
-          <h3>Shell Company Detection using GNN</h3>
-          <p><strong> Master of Science Thesis</strong></p>
-          <ul>
-            <li><strong> Abstract</strong> Identifying shell companies in the Brazilian Value Added Tax system is complex. They exploit the lack of communication between tax authorities to engage in illegal tax practices. Numerous methodologies have been developed to identify banking, insurance, and social security fraud. However, few works apply to tax hoaxes, particularly in the Brazilian context. Motivated by this gap, we developed an approach for identifying shell companies. It consists in selecting adequate company features and applying recent Graph Neural Network architectures. We tested different approaches to connect companies and train the model. They all indicated promising results. Our most satisfactory model applied a modified Graph Attention Networks, built using connections among companies with the same owners, accountants, or directors. Real data showed a 14.7% performance increase when using graph information. The method has also proven robust enough to generalize to future data.</li>
-            <li>Currently operating and help tax authorities to indentify shell companies.</li>
-          </ul>
-        </div>
-
-        <div class="projects">
-          <h3>Logo Detection</h3>
-          <p><strong> Logo Detection using Tensorflow (2) Object Detection API</strong></p>
-          <ul>
-            <li>In social media analysis, sometimes images/videos can inform us more than the pure text. For example, if you want to do a search on users of a certain brand, it is perhaps more effective to look for images/videos, as it is unlikely that anyone will explicitly write the company in their post. Therefore, combined with textual analyses, this methodology can improve the result of such analyses.</li>
-            <li>Model trainned with the dataset used for training was scrapped from public publications on instagran between 2015 and 2017 in some US cities. The logos used for training are: Nike, Adidas, Under Armour, Puma, The North Face, Starbucks, Apple Inc., Mercedes-Benz, NFL, Coca-Cola, Chanel, Toyota, Pepsi, Hard Rock Cafè.</li>
-            <li><a href="https://github.com/rodolformelo/LogoDetection" target="_blank">Github Link</a></li>
-          </ul>
-        </div>
-
-        <div class="projects">
-          <h3>Pagerank</h3>
-          <p><strong> Implementation of Gogle's page rank algorithm</strong></p>
-          <ul>
-            <li>Google's page rank is a remarkable algorithm. Published in 1998 by Page and Brin, it was the first method used by Google Search to measure the relative importance of a certain webpage in its search engines. Although it is not currently used by Google Search, it is yet a well-used metric to calculate node importance in a Graph</li>
-            <li>As part of 2022 Bocconi's Computer Science (Algorithms) Course, I will develop the Page Rank and Personalized Page Rank Algorithms to be applied in a unweighted graph.</li>
-            <li><a href="https://github.com/rodolformelo/pagerank" target="_blank">Github Link</a></li>
-          </ul>
-        </div>
-
-        <div class="projects">
-          <h3>Cripto Efficient Asset Manager</h3>
-          <p><strong> MARKO - Your Efficient Efficient Portfolio Managemer</strong></p>
-          <ul>
-            <li>Implemented the analogous of the Markowitz model for the choice of an efficient portfolio (Markowitz, H.M. (March 1952). "Portfolio Selection"), but in the world of crypto assets. In particular, we focused our attention on the Ethereum blockchain, and the relative ERC20 tokens in the domain of the chain. This simply sketch represents MARKO's architecture.</li>
-            <li><a href="https://github.com/rodolformelo/Crypto-Efficient-Asset-Management" target="_blank">Github Link</a></li>
-          </ul>
-        </div>
-
-        <div class="projects">
-          <h3>Metropolis-Hasting Algorithm</h3>
-          <p><strong> Metropolis-Hasting Algorithm using Gibbs Sampler for binary classification</strong></p>
-          <ul>
-            <li>Google's page rank is a remarkable algorithm. Published in 1998 by Page and Brin, it was the first method used by Google Search to measure the relative importance of a certain webpage in its search engines. Although it is not currently used by Google Search, it is yet a well-used metric to calculate node importance in a Graph</li>
-            <li><a href="https://github.com/rodolformelo/Metropolis-Hastings-Algorithm" target="_blank">Github Link</a></li>
-          </ul>
-        </div>
-
       </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="about">
+  <div class="container">
+    <div class="card" data-aos="fade-up" data-aos-offset="10">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">About</div>
+            <p align="justify"> Welcome! <br><br>
+                Fresh Data Science graduate with significant data analytics experience. <br>
+                An experienced programmer with a passion for learning new skills and seeking research experience to pursue a PhD in the future. <br>
+                Curriculo: <a href="{{ url_for('static',filename='downloads/Previsao.xlsx') }}">Arquivo Excel</a><br>
+            </p>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">Basic Information</div>
+            <div class="row">
+              <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+              <div class="col-sm-8">rodolfomelo92@gmail.com</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
+              <div class="col-sm-8">(86) 98167-4099</div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="downloads">
+  <div class="container">
+    <div class="h4 text-center mb-4 title">Downloads</div>
+    <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+      <div class="card-body">
+        <b>Previsao da Receita:   </b> <a href="{{ url_for('static',filename='downloads/Previsao.xlsx') }}">Arquivo Excel</a><br><br>
+        <b>Dados Documentos Eletrônicos:   </b> <a href="{{ url_for('static',filename='downloads/Documentos_Boletim.xlsx') }}">Arquivo Excel</a><br><br>
+        <b>Dados PMPF Combustível:   </b> <a href="{{ url_for('static',filename='downloads/Dados_Combustivel.csv') }}">Arquivo Excel</a><br><br>
+        <b>Arquivo com Últimos Boletins: </b> <a href="https://drive.sefaz.pi.gov.br/index.php/s/VUQJlcXIwDEQ2dJ">Drive Sefaz</a>
+      </div>
+    </div>
+  </div>
+</div>
 
-    </main>
+<div class="section" id="projects">
+  <div class="container cc-experience">
+    <div class="h4 text-center mb-4 title">Projects</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p> Master of Science Thesis </p>
+            <div class="h5"> Bocconi </div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5"> Shell Company Detection using GNN</div>
+            <p align="justify">
+              <strong> Abstract</strong> Identifying shell companies in the Brazilian Value Added Tax system is complex. 
+              They exploit the lack of communication between tax authorities to engage in illegal tax practices. 
+              Numerous methodologies have been developed to identify banking, insurance, and social security fraud. 
+              However, few works apply to tax hoaxes, particularly in the Brazilian context. 
+              Motivated by this gap, we developed an approach for identifying shell companies. 
+              It consists in selecting adequate company features and applying recent Graph Neural Network architectures. 
+              We tested different approaches to connect companies and train the model. They all indicated promising results. 
+              Our most satisfactory model applied a modified Graph Attention Networks, built using connections among companies with the same owners, accountants, or directors. 
+              Real data showed a 14.7% performance increase when using graph information. The method has also proven robust enough to generalize to future data. <br><br>
+              <img src="static/images/gnn_pipeline.jpg" alt="Image"/>  
+            
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+        <div class="row">
+          <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body cc-experience-header">
+              <p> Bocconi </p>
+              <div class="h5">Logo Detection</div>
+            </div>
+          </div>
+          <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body">
+              <div class="h5">Logo Detection </div>
+              <p align="justify">
+                Logo Detection using Tensorflow (2) Object Detection API
+                In social media analysis, sometimes images/videos can inform us more than the pure text. 
+                For example, if you want to do a search on users of a certain brand, it is perhaps more effective to look for images/videos,
+                as it is unlikely that anyone will explicitly write the company in their post. 
+                Therefore, combined with textual analyses, this methodology can improve the result of such analyses. <br>
+                Model trainned with the dataset used for training was scrapped from public publications on instagran between 2015 and 2017 in some US cities. The logos used for training are: Nike, Adidas, Under Armour, Puma, The North Face, Starbucks, Apple Inc., Mercedes-Benz, NFL, Coca-Cola, Chanel, Toyota, Pepsi, Hard Rock Cafè.<br>
+                <a href="https://github.com/rodolformelo/LogoDetection" target="_blank">Github Link</a><br>
+                <img src="static/images/logo_detection.jpg" alt="Image"/>                            
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p> Tax Audit Department </p>
+            <div class="h5"> Matrix Risk Relevance</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5"> SMC - UNIFIS </div>
+            <p align="justify">
+               Development of the risk & relevance matrix for normal taxpayers. <br>
+               Among the activities are: <br>
+               <ul>
+                <li>Development of new methodologies for relevance and risk;</li>  
+                <li>Automating database queries;</li>
+                <li>Classification Methodology in python;</li>
+                <li>Application development for web visualization in Angular;</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+        <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body cc-experience-header">
+            <p> SUPREC </p>
+            <div class="h5"> Tax GAP</div>
+            </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body">
+            <div class="h5">Metodologia Tax Gap </div>
+            <p align="justify">
+              It basically consists of applying a methodology previously developed by the Treasury Department and the professor Nelson Leitão Paes (University of Brasilia - BR) to estimate the potential State Tax and subsequently compare it with what has been collected. <br>
+              It is a top-down methodology, which starts with the state GDP by sector and uses economic/statistical methodologies to estimate the tax gap due to tax incentive and tax evasion policies. <br>
+              I was responsible for improving estimates using electronic information from invoices.
+            </div>
+            </div>
+        </div>
+    </div>    
+    <div class="card">
+        <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body cc-experience-header">
+            <p> UNIFIS </p>
+            <div class="h5"> Extrato de Processamento Estadual </div>
+            </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body">
+            <div class="h5"> EPE - EFD / OIE </div>
+            <p align="justify">
+                Trabalho desenvolvido em conjunto com toda equipe da Sefaz, dentre eles: Lucas Araújo, Lauro Triani, Otávia Rocha, Ana Maria, Matheus Andrade, Aldenir do Vale, Lilian Bayer. <br>
+                Resumidamente, consiste em um trabalho inovador no ambito de outras Secretarias de Fazenda para otimização de validações dos arquivos gerados pelo SPED - EFD. <br>
+                Desenvolvimento desse projeto foi fundamental para que fosse possível dispensar a DIEF e GIA-ST. <br> <br>
+                Atualmente, o trabalho se concentra na manutenção e criação de novas regras.
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
 
+<div class="section" id="educacao">
+  <div class="container cc-education">
+    <div class="h4 text-center mb-4 title">Education</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>2020 - 2022</p>
+            <div class="h5">Master of Science</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">MSc. in Data Science and Business Analitcs</div>
+            <p class="category">BOCCONI UNIVERSITY</p>
+            <p> Graduation Grade: 109/110</p>
+            <p>Relevant Courses: Statistics, Econometrics, Algorithms, Machine Learning I and II, Mathematical modeling, Natural Language Program, Deep Learning.</p>
+            <p> More Information in my Github. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>2010 - 2014</p>
+            <div class="h5">Bachelor</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Mechanical Engineering</div>
+            <p class="category">Federal University of São Carlos</p>
+            <p>I had the opportunity to work on incredible projects. During that time, I specialized in mechanical/mechatronics and materials design. <br><br>
+              <b>Thesis Title:</b> Study of biofuels and their viability in internal combustion engines.
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+</div>
+    </div>
+    <footer class="footer">
+      <div class="container text-center"></i></a><a class="cc-google-plus btn btn-link" target="_blank" href="https://github.com/rodolformelo"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a><a class="cc-instagram btn btn-link" target="_blank" href="https://www.linkedin.com/in/rodolfo-rodrigues-melo-35770a41/"><i class="fa fa-linkedin fa-2x " aria-hidden="true"></i></a></div>
+      <div class="h4 title text-center">Rodolfo Rodrigues Melo</div>
+      <div class="text-center text-muted">
+        <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
+      </div>
+    </footer>
+    <script src="{{ url_for('static',filename='js/core/jquery.3.2.1.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/core/popper.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/core/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/now-ui-kit.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/aos.js') }}"></script>
+    <script src="{{ url_for('static',filename='scripts/main.js') }}"></script>
   </body>
-
 </html>
