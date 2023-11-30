@@ -1,0 +1,258 @@
+# Site
+repository: rodolformelo/rodolformelo.github.io
+favicon: images/resume.png
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Rodolfo Rodrigues Melo  
+title: Data Scientist
+email: rodolfomelo92@gmail.com
+# email_title: Email (Email title override)
+# phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+website: rodolformelo.github.io
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: Rodolfo82312915
+github_username:  rodolformelo
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+instagram_username: rodolfor.melo
+linkedin_username: rodolfo-rodrigues-melo-35770a41
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#orcid_username: 0000-0000-0000-0000
+#googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+additional_links:
+- title: Medium
+  icon: fab fa-medium
+  url: https://medium.com/@rodolfomelo92
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/rodolfo1.jpg
+about_content: | # this will include new lines to allow paragraphs
+  As a Senior Data Scientist specializing in Tax Audit, I possess extensive experience in programming and a strong commitment to continuous learning. My expertise extends to anomaly detection and applying Natural Language Processing (NLP) techniques, enabling me to uncover critical insights and optimize processes in the intricate field of tax auditing.
+
+  If you want to contact me for any project, reach me out by e-mail.
+  I will be more than happy to hear from you!  
+content:
+  - title: Current Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        #border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Eletronic Accounting Record
+        sub_title: Dec/23 - Present
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Link Text
+        quote: >
+          Development of a tax compliance verification system to analyze digital accounting files for 
+          taxpayer compliance, potentially uncovering millions in irregularities.
+        description: | # this will include new lines to allow paragraphs
+          The project involves the entire pipeline of establishing a tax compliance verification system. 
+          Currently, we are downloading TXT files representing Digital Accounting Files (ECD). 
+          A Java code has been developed to read and store these files in our Oracle databases. 
+          For data analysis, A Spark code was created to retrieve ECD information and to combine it 
+          with other data from our internal Data Warehouse and public company information from 
+          the Federal Revenue Service. This integration facilitates a comprehensive data cross-checking 
+          process aimed at detecting discrepancies. This approach has enabled us to identify Declaration 
+          Omissions by establishing a mandatory rule and checking taxpayer compliance. 
+          It also helps in pinpointing irregularities in analytical accounts. We anticipate that this 
+          extensive cross-referencing with the state's major taxpayers will uncover a large amount of 
+          irregularities.
+      - layout: left
+        #border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Price Reference
+        sub_title: Sep/23 - Present
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Link Text
+        quote: >
+          Development of a model for estimating fair market prices of products for accurate 
+          tax enforcement using Spark and NLP
+        description: | # this will include new lines to allow paragraphs
+          This project aims to accurately identify and price products like soft drinks for 
+          tax purposes, especially for goods that are under-declared or under-invoiced at state borders. 
+          Utilizing methodologies from EloGroup and employing Spark for data processing, 
+          the project tackles the challenge of non-standardized electronic fiscal documents. 
+          My contribution is focused on refining the analytics and mathematics, 
+          using NLP in Spark, to improve product identification and price estimation, 
+          thus aiding in effective tax regulation.
+      - layout: left
+        #border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Other Projects
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Link Text
+        quote: >
+          A list of projects developed in the last 8 years. For more information, reach me out by email.
+        description: | # this will include new lines to allow paragraphs
+          - State Processing Exctract: Developed by the Planning Audit team innovative,
+          this work created a new validation framework for the Brazilian IVA Declaration.
+          In 2022, this project got the 2nd place in the Tribuatare Award, 
+          a innovative competition among the best tax audit projects in the country.
+          [links](http://premiotributare.org.br/premio-tributare-tem-seis-finalistas-veja-a-lista/)
+          - Shell Company Detection: Using Graph Neural Networks to Detect Shell Companies.
+          - Medicine Price Reference: Methodology using NLP and Statistics to create price references 
+          for purchasing medications in the State. (Laboratory of Statistics and Data Science at UFAL, 
+          in collaboration with SEFAZ/PI).
+          - Tax Compliance Study: Using big data to eases the process through which small 
+          firms comply with tax regulation. (Inter-American Development Bank, 
+          in collaboration with SEFAZ/PI).
+          - Tax Gap Methodology: Improved the methodology from Nelson Leitão Paes (University of Brasilia - BR)
+          using Eletronic Invoices.
+          - Tax Compliance Verifications: Implemented over 30 different rules to detect tax fraud / irregularities. 
+          A large amount of resources were recovered with these rules.
+          
+        
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Treasury Secretary of The State of Piaui - Brazil
+        sub_title: Senior Data Scientist
+        caption: Januray 2023 - Present
+        quote: >
+          Leading Analytics Projects
+        description: | # this will include new lines to allow paragraphs
+          - Consultant on Data Science projects for the Treasury Secretary
+          - Developed analytics solutions to establish market reference prices using Electronic Invoice data.
+          - Implemented automated systems to detect discrepancies in Digital Accounting Records.
+          - Collaborated with the Data Science Laboratory at the Federal University of Alagoas to create a reference pricing methodology for pharmaceuticals, enhancing procurement efficiency for the State of Piauí.
+      - layout: left
+        title: Bocconi University
+        sub_title: Research Assistant
+        caption: June 2023 - Present
+        quote: >
+          Work on the leadership of Professor Vincenzo Galasso in the Department of Social and Political Sciences
+        description: | # this will include new lines to allow paragraphs
+          - Specialized in emotion detection through audio and textual analysis.
+          - Conducted opinion poll analysis to gauge public sentiment.
+          - Employed text mining techniques for extracting key insights from interviews.
+          - Simulated statistical models for forecasting voting trends in political acronyms.
+      - layout: left
+        title: Treasury Secretary of The State of Piaui - Brazil
+        sub_title: Planning Coordinator
+        caption: Januray 2018 - December 2022
+        quote: >
+          Team Lead in the Auditing Unit
+        description: | # this will include new lines to allow paragraphs
+          - Led a multidisciplinary team comprising tax auditors, data engineers, and analysts.
+          - Managed a real-time fraud detection initiative to enhance auditing efficiency.
+          - Innovated tax evasion countermeasures, recovering over €50 million.
+          - Pioneered State Electronic Tax Declaration checks, recognized as one of Brazil's top taxation innovations in 2022.
+          - Developed models for predicting State Revenue from electronic invoices, aiding in government financial planning.
+          - Refined the methodology for calculating the State Tax Gap, focusing on high-evasion sectors from a macroeconomic perspective.
+          - Designed and implemented dashboards and reports to optimize tax auditing processes.
+          - Orchestrated strategic planning for State Tax Audits.
+          - Created and implemented models for swift detection of Shell companies, significantly reducing fraud detection time.
+      - layout: left
+        title: Treasury Secretary of The State of Piaui - Brazil
+        sub_title: Tax Auditor
+        caption: February 2016 - December 2017
+        quote: >
+          Headquater - Teresina - Brazil
+        description: | # this will include new lines to allow paragraphs
+          - Tax Audit in the largest companies in the State.      
+      - layout: left
+        title: LATAM Airlines
+        sub_title: Aeronautical Engineering Intern
+        caption: January 2014 - Semptember 2014
+        quote: >
+          Maintenance, Repair and Overhaul - São Carlos - Brazil
+        description: | # this will include new lines to allow paragraphs
+          - Responsible for maintenance reports for Airbus 319/320/321 aircrafts.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Bocconi University
+        sub_title: MSc. in Data Science and Business Analitcs
+        caption: 2020 - 2022
+        quote: >
+          Course in statistics and computer science at one of the most prestigious Italian universities
+        description: | # this will include new lines to allow paragraphs
+          Graduation Grade: 109/110 
+
+          Courses: Statistics, Econometrics, Algorithms, Machine Learning I and II, Mathematical modeling, Natural Language Program, Deep Learning.
+      - layout: left
+        title: Araraquara university
+        sub_title: Master in Tax Law
+        caption: 2015-2016
+        quote: >
+          Specialization course in Brazilian value-added tax legislation
+        description: | # this will include new lines to allow paragraphs
+          Related courses: Tax Law, Constitutional Law, Value-Added Tax
+      - layout: left
+        title: Federal University of Sao Carlos
+        sub_title: BA in Mechanical Engineering
+        caption: 2010-2014
+        quote: >
+          5-year engineering course in Sao Carlos - Sao Paulo / Brazil
+        description: | # this will include new lines to allow paragraphs
+          Specialization: Mechatronics and materials design. 
+
+          Thesis Title: Study of biofuels and their viability in internal combustion engines.
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Languages:** English, Portuguese, Italian, and Spanish
+
+      **Program Languages:** Python, SQL, R, C++, VBA, Matlab, STATA, bash
+
+      **ML Experience:** NLP, Anomalous Detection, Graph Neural Networks, Time Series
+
+      **Softwares / Databases:** SQL Server, Oracle, Spark, ElasticSearch, PowerBI, Qlik, Azure, AWS, Docker GIT, RestAPI
+
+
+
+# Footer
+footer_show_references: False
+# references_title: References on request (Override references text)
+
+# Build settings
+#theme: modern-resume-theme 
+remote_theme: sproogen/modern-resume-theme 
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
