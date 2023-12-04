@@ -52,7 +52,10 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/rodolfo1.jpg
 about_content: | # this will include new lines to allow paragraphs
-  As a Senior Data Scientist specializing in Tax Audit, I possess extensive experience in programming and a strong commitment to continuous learning. My expertise extends to anomaly detection and applying Natural Language Processing (NLP) techniques, enabling me to uncover critical insights and optimize processes in the intricate field of tax auditing.
+  As a Senior Data Scientist specializing in Tax Audit, my extensive programming experience is 
+  complemented by a steadfast commitment to continuous learning. My expertise in anomaly detection 
+  and Natural Language Processing (NLP) techniques is instrumental in extracting 
+  key insights and streamlining processes within the nuanced realm of tax auditing.
 
   If you want to contact me for any project, reach me out by e-mail.
   I will be more than happy to hear from you!  
@@ -111,9 +114,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           - State Processing Exctract: Developed by the Planning Audit team innovative,
           this work created a new validation framework for the Brazilian IVA Declaration.
-          In 2022, this project got the 2nd place in the Tribuatare Award, 
+          In 2022, this project got the 2nd place in the 
+          [Tribuatare Award](http://premiotributare.org.br/premio-tributare-tem-seis-finalistas-veja-a-lista/), 
           a innovative competition among the best tax audit projects in the country.
-          [links](http://premiotributare.org.br/premio-tributare-tem-seis-finalistas-veja-a-lista/)
           - Shell Company Detection: Using Graph Neural Networks to Detect Shell Companies.
           - Medicine Price Reference: Methodology using NLP and Statistics to create price references 
           for purchasing medications in the State. (Laboratory of Statistics and Data Science at UFAL, 
