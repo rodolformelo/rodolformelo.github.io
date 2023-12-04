@@ -52,10 +52,9 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/rodolfo1.jpg
 about_content: | # this will include new lines to allow paragraphs
-  As a Senior Data Scientist specializing in Tax Audit, my extensive programming experience is 
-  complemented by a steadfast commitment to continuous learning. My expertise in anomaly detection 
-  and Natural Language Processing (NLP) techniques is instrumental in extracting 
-  key insights and streamlining processes within the nuanced realm of tax auditing.
+  I am a Senior Data Scientist working at the Treasury Secretary of the State of Piauí - Brazil. 
+  My expertise is in economic data analysis, anomaly detection and natural language processing. 
+  I am fascinated by technology and I am always learning.
 
   If you want to contact me for any project, reach me out by e-mail.
   I will be more than happy to hear from you!  
